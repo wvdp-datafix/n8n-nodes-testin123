@@ -3,7 +3,7 @@
     "version": "0.1.6",
     "description": "",
     "license": "MIT",
-    "homepage": "",
+    "homepage": "Convert Buffer data to Base64 string",
     "keywords": [
         "n8n-community-node-package"
     ],

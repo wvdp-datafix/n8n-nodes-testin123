@@ -9,7 +9,7 @@ import { NodeConnectionTypes, NodeOperationError } from 'n8n-workflow';
 export class Buffer2base64 implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Buffer2base64',
-		name: 'Buffer2base64',
+		name: 'buffer2base64',
 		icon: { light: 'file:Buffer2base64.svg', dark: 'file:Buffer2base64.dark.svg' },
 		group: ['input'],
 		version: 1,
