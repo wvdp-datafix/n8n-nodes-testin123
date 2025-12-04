@@ -1,6 +1,6 @@
 {
     "name": "@datafix/n8n-nodes-buffer2base64",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Convert Buffer data to Base64 string in n8n workflows.",
     "license": "MIT",
     "homepage": "",
@@ -15,15 +15,15 @@
         "type": "git",
         "url": "https://github.com/DataFix-B-V/n8n-nodes-buffer2base64.git"
     },
-   "scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
-	},
+    "scripts": {
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lint:fix": "n8n-node lint --fix",
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease"
+    },
     "files": [
         "dist"
     ],
