@@ -1,0 +1,49 @@
+{
+    "name": "@datafix/n8n-nodes-buffer2base64",
+    "version": "0.1.6",
+    "description": "",
+    "license": "MIT",
+    "homepage": "",
+    "keywords": [
+        "n8n-community-node-package"
+    ],
+    "author": {
+        "name": "datafix b.v.",
+        "email": "n8n-verified-node@datafix.nl"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataFix-B-V/n8n-nodes-buffer2base64.git"
+    },
+   "scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "strict": true,
+        "credentials": [],
+        "nodes": [
+            "dist/nodes/Buffer2base64/Buffer2base64.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "*",
+        "@types/node": "*",
+        "eslint": "9.32.0",
+        "prettier": "3.6.2",
+        "release-it": "^19.0.4",
+        "typescript": "5.9.2"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    }
+}
